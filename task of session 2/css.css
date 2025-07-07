@@ -1,0 +1,110 @@
+  * {
+      margin: 0;
+      padding: 0;
+      font-family: "Michroma", sans-serif;
+      box-sizing: border-box;
+  }
+
+  body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+  }
+
+  .container {
+      display: flex;
+      max-height: 100%;
+  }
+
+  .left {
+      flex: 1;
+      background-color: #00bcd4;
+      color: white;
+      padding: 5%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+
+
+
+
+  .left h1 {
+      text-align: center;
+      font-size: 400%;
+      margin-top: 0%;
+      margin-bottom: 10%;
+      border-top: 0%;
+      padding-top: 0%;
+  }
+
+  .left p {
+      text-align: center;
+      font-size: 150%;
+      line-height: 150%;
+  }
+
+  .right {
+      flex: 1;
+      background-color: #ffffff;
+      padding: 6%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+
+  .right h1 {
+      text-align: center;
+      font-size: 300%;
+      padding-top: 0%;
+      margin-top: 0%;
+      margin-bottom: 5%;
+      color: #000000;
+  }
+
+  .right h4 {
+      margin-left: 11%;
+
+
+  }
+
+  form input,
+  form textarea {
+      width: 80%;
+      padding: 3%;
+      margin-bottom: 5%;
+      margin-left: 11%;
+      border: none;
+      border-radius: 4px;
+      background-color: rgb(228, 231, 233);
+      font-size: 80%;
+  }
+
+  form textarea {
+      resize: vertical;
+      min-height: 30%;
+  }
+
+  .submit-button {
+      text-align: center;
+      background-color: #00bcd4;
+      color: white;
+      border: none;
+      padding-left: 10%;
+      padding-right: 10%;
+      padding-top: 3%;
+      padding-bottom: 3%;
+      font-size: 125%;
+      cursor: pointer;
+      border-radius: 30px;
+      transition: background-color 0.3s;
+      margin-left: 35%;
+  }
+
+  .submit-button:hover {
+      background-color: #0097a7;
+  }
