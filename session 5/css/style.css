@@ -1,0 +1,229 @@
+/* reset style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+    margin-top: 0%;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+i {
+    width: 10%;
+    height: 10%;
+}
+
+li {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    padding: 3%;
+}
+
+
+
+/*global*/
+
+.d-flex {
+    display: flex;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+.margin-top-bottom {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.justify-content-between {
+    justify-content: space-evenly;
+}
+
+
+
+.align-item-center {
+    align-items: center;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.bg-grey {
+    background-color: rgb(237, 237, 237);
+}
+
+.bg-blue {
+    background-color: rgb(8, 20, 20);
+
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+
+
+.position-re {
+    position: relative;
+}
+
+.position-ab {
+    position: absolute;
+}
+
+
+
+.text-green {
+    color: #4CAF4F;
+}
+
+.text-grey {
+    color: rgb(99, 99, 99);
+}
+
+.text-w {
+    color: rgb(183, 183, 184);
+}
+
+.padding {
+    padding: 2%;
+}
+
+.text-black {
+    color: black;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+span {
+    color: #4CAF4F;
+}
+
+/*custom*/
+.f-img {
+    width: 20%;
+    height: 30%;
+
+}
+
+.bt-1 {
+
+    border-style: none;
+}
+
+.bt-2 {
+    background-color: #4CAF4F;
+    border-radius: 3px;
+    border-style: none;
+    color: aliceblue;
+    height: 40%;
+    width: 10%;
+    margin-top: 4%;
+}
+
+.r-bt {
+    background-color: #4CAF4F;
+    border-radius: 3px;
+    border-style: none;
+    color: aliceblue;
+    margin: 3%;
+    padding: 2%;
+
+
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgb(232, 230, 230);
+    border-radius: 4px;
+    border-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    top: 85%;
+    padding: 3%;
+    width: 80%;
+    left: 8%;
+}
+
+.card {
+    position: relative;
+    width: 25%;
+
+}
+
+.fix {
+    padding-top: 4%;
+    margin-top: 7%;
+}
+
+
+
+.text-3 {
+    width: 50%;
+    text-align: center;
+}
+
+.item1 {
+    width: 50%;
+    padding: 1%;
+}
+
+
+
+
+.arr {
+    color: aliceblue;
+}
+
+
+
+input {
+    background-color: rgb(213, 209, 209);
+    border-radius: 4px;
+    border-style: none;
+    width: 80%;
+    margin: 8%;
+    padding: 3%;
+
+}
+
+.f-logo {
+    margin-top: 2%;
+}
