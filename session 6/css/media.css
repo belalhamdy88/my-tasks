@@ -1,0 +1,57 @@
+@media (max-width: 991.98px) {
+
+    .left-aside,
+    .right-aside {
+        width: 100%;
+    }
+
+
+    .left-aside {
+        background-color: goldenrod;
+    }
+
+}
+
+
+@media (max-width: 575.98px) {
+
+    .left-aside,
+    .right-aside {
+        width: 100%;
+    }
+
+
+    .w-45 {
+        width: 100%;
+    }
+
+    .left-aside {
+        background-color: lightgray;
+    }
+}
+
+
+@media (min-width:1200px) {
+    .right-aside {
+        background-color: aqua;
+    }
+}
+
+
+@media (min-width:400px) and (max-width:800px) {
+    .card-lg {
+        background: black;
+        color: white;
+    }
+
+    .hidden-section {
+        display: none;
+    }
+}
+
+
+@media print {
+    .left-aside {
+        display: none;
+    }
+}
