@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+/*custom style*/
+.w-90 {
+    width: 80%;
+}
+
+
+.dropdown-menu {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-30px);
+
+    transition: all 0.2s ease-in-out;
+    position: absolute;
+    right: 0;
+    border: none;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-item:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+
+}
+
+
+.nav-link {
+    color: black;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #0d6efd;
+
+}
+
+
+.nav-link:hover {
+    color: #0d6efd;
+
+}
+
+
+
+.ph {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/slider1.jpg);
+    background-size: contain;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 47vh;
+    position: relative;
+    width: 100%;
+
+    height: 100%;
+    z-index: 1;
+
+}
+
+.content {
+    z-index: 5;
+    position: absolute;
+}
+
+.sec1 {
+    min-height: 47vh;
+
+}
+
+.hom-cont {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2% 0% 2% 0%;
+    margin-top: 8.5%;
+}
+
+
+.w60-10 {
+    width: 60px;
+    height: 10px;
+}
+
+.w30-3 {
+    width: 30px;
+    height: 3px;
+}
+
+.w60-3 {
+    width: 60px;
+    height: 3px;
+}
+
+
+.custom-input {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px 0;
+    border-bottom: 2px solid #000000;
+    display: flex;
+    align-items: center;
+}
+
+.custom-input .icon {
+    color: #000000;
+    padding: 0 10px;
+    font-size: 18px;
+}
+
+.custom-input input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 10px 5px;
+    font-size: 16px;
+    background: transparent;
+}
+
+
+
+.mes {
+    position: relative;
+    width: 95%;
+    border: none;
+    margin: 20px 0;
+    border-bottom: 2px solid #000000;
+    display: flex;
+    align-items: center;
+}
+
+.up {
+    z-index: 0;
+    font-size: 70px;
+    opacity: 50%;
+    color: aliceblue;
+}
+
+.down {
+    z-index: 5;
+    top: 4%;
+}
